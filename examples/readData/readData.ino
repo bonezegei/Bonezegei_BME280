@@ -1,3 +1,8 @@
+/*
+  Read All Sensor value
+  Author: Jofel Batutay (Bonezegei)
+  Date: October 14, 2026
+*/
 #include <Wire.h>
 #include <Bonezegei_BME280.h>
 
@@ -13,7 +18,7 @@ void setup() {
     while (1);
   }
 
-  Serial.println("Bonezegei BME280 Sensor Initialized!");
+  Serial.println("BME280 Sensor Initialized!");
 }
 
 void loop() {
